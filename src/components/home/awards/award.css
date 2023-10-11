@@ -1,0 +1,39 @@
+.award{
+     background-color: rgba(20, 41, 135, 0.667);
+    color: #fff;
+    text-align: center;
+}
+
+.award .heading{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.award .heading h1{
+    color: #fff;
+    font-size: 30px;
+}
+
+.award .heading p{
+    color: #fff;
+    font-weight: 20px;
+}
+
+.award .icon{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 50px;
+    font-size: 30px;
+    background-color: rgb(153, 153, 129);
+    border-radius: 50% 4%;
+    line-height: 100px;
+}
+
+.award h1{
+    font-size: 40px;
+}
+
+.award p{
+    color: rgb(231, 225, 225);
+}

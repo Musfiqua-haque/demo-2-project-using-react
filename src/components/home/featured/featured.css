@@ -1,0 +1,11 @@
+.featured .box{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 30px;
+    cursor: pointer;
+}
+.featured img{
+    width: 100px;
+    height: 100px;
+}

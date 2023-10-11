@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+}
+.container{
+max-width: 90%;
+margin: auto;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a{
+  text-transform: capitalize;
+  color: black;
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
+button{
+  padding: 10px 25px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(20, 41, 135, 0.667);
+  color: #fff;
+  cursor: pointer;
+
+}
+button i{
+  margin-right: 7px;
+}
+
+.heading{
+  text-align: center;
+  margin: auto;
+  width: 45%;
+}
+
+.heading h1{
+  color: #36405a;
+  font-weight: 500px;
+  font-size: 35px;
+}
+
+.heading p{
+  color: #68686c;
+}
+
+.background{
+  position: relative;
+  padding: 80px 0;
+  background-color: #fff;
+}
+
+.grid5{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 25px;
+  margin-top: 50px;
+}
+label{
+  color: #36405a;
+  font-size: 15px;
+}
+
+.shadow{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.padding{
+  padding: 50px 0;
+}
+.grid3{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+  margin-top: 50px;
+}
+
+.btn2{
+  border-radius: 50px;
+  font-size: 20px;
+}
+
+.grid4{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+}
+
+.mtop{
+  margin-top: 50px;
+}
+
+.btn5{
+  border-radius: 50px;
+  padding: 20px 40px;
+}
+
+.back{
+  height: 40vh;
+  position: relative;
+}
+
+.back img{
+  width: 100%;
+  height: 80vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.box::after{
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  height: 100%;
+  height: 40vh;
+  /* background: rgb(254, 243, 216) */
+}
+
+.back .container{
+  padding: 140px 0px;
+  color: #fff;
+}
+
+.back h1{
+  font-size: 40px;
+  font-weight: 500px;
+}
+
+.mtop{
+  margin-bottom: 100px;
+}
